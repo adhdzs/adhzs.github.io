@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>JS - Práctica 5</title>
+</head>
+<body>
+     <h1>Práctica 5 JavaScript</h1>
+     <section id="calculadora-content">
+          <h2>Calculadora</h2>
+          <div class="calculadora">
+               <p>
+                    <label for="numero_1">Número 1:</label>
+                    <input type="text" name="numero_1" id="numero_1">
+               </p>
+               <p>
+                    <label for="operacion">Tipo de Operación:</label>
+                    <select name="operaciones" id="operaciones">
+                         <option value="1">+ Suma</option>
+                         <option value="2">- Resta</option>
+                         <option value="3">* Multiplicación</option>
+                         <option value="4">/ División</option>
+                         <option value="5">^ Exponente</option>
+                    </select>
+               </p>
+               <p>
+                    <label for="numero_2">Número 2:</label>
+                    <input type="text" name="numero_2" id="numero_2">
+               </p>
+
+               <p><button onclick="calcular()">Calcular</button></p>
+          </div>
+          <div id="resultado">
+               <p>Resultado:</p>
+          </div>
+     </section>
+     <section id="tabla_contenedor">
+          <h2>Tablas de multiplicar</h2>
+          <div class="datos-tabla">
+               <p>
+                    <label for="base-tabla">Base de la tabla: </label>
+                    <input type="text" name="base" id="base">
+               </p>
+               <p>
+                    <label for="longitud">Longitud: </label>
+                    <input type="text" name="longitud" id="longitud">
+               </p>
+               <p>
+                    <label for="orden">Mostrar de forma: </label>
+                    <select name="orden" id="orden">
+                         <option value="1">Ascendente</option>
+                         <option value="2">Descendente</option>
+                    </select>
+               </p>
+               <p>
+                    <button onclick="tablasM()">Generar tabla</button>
+               </p>
+          </div>
+          <div id="tabla">
+               
+          </div>
+     </section>
+     <script src="../js/js5.js"></script>
+</body>
+</html>
