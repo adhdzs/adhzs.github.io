@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Funciones JS</title>
+</head>
+<body>
+     <h1>Funciones JS</h1>
+     <div>
+          <div>
+               <label for="numero">Número: </label>
+               <input type="text" name="numero" id="numero" required>
+          </div>
+          <div>
+               <label for="resul">Resultado: </label>
+               <input type="text" name="resul" id="resul" readonly>
+          </div>
+          <div>
+               <button onclick="calcular()">Calcular</button>
+          </div>
+     </div>
+     <hr>
+     <div>
+          <h2>Ejercicio - Imagenes</h2>
+          <div>
+               <label for="imagen">No. Imagen: </label>
+               <input type="number" name="numero" id="noImagen" max="5" min="1">
+               <button onclick="mostrarImg()">Mostrar Imagen</button>
+          </div>
+          <div>
+               <img id="imagen" src="#" alt="Imagen" width="550px">
+          </div>
+     </div>
+     <hr>
+     <div>
+          <h2>Ejercicio - Números Perfectos</h2>
+          <div>
+               <p>Cálculo de números perfectos. Indique la cantidad de números que deseea visualizar.</p>
+               <label for="cantidad">Números en la lista: </label>
+               <input type="text" name="cantidad" id="catidad">
+          </div>
+          <div>
+               <button onclick="procesar()">Calcular</button>
+          </div>
+          <div>
+               <p><strong>Resultados: </strong></p>
+               <p id="resultados"></p>
+          </div>
+     </div>
+     <script src="../js/js4.js"></script>
+</body>
+</html>
