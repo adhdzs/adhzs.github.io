@@ -1,0 +1,44 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+/* Práctica 5*/
+#calculadora-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculadora-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#resultado {
+    text-align: center;
+    margin-left: 150px;
+    font-weight: 700;
+}
+
+label {
+    color: rgb(74, 74, 74);
+}
+input, select {
+    border: none;
+    border-bottom: 2px solid #2c72ff;
+    margin-top: 25px;
+    width: 150px;
+    text-align: center;
+}
+button {
+    border: none;
+    border-radius: 35px;
+    background: #d65d01;
+    color: #fff;
+    width: 100px;
+    padding: 8px;
+}

@@ -5,32 +5,39 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>JS - Práctica 5</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
      <h1>Práctica 5 JavaScript</h1>
      <section id="calculadora-content">
-          <h2>Calculadora</h2>
-          <div class="calculadora">
-               <p>
-                    <label for="numero_1">Número 1:</label>
-                    <input type="text" name="numero_1" id="numero_1">
-               </p>
-               <p>
-                    <label for="operacion">Tipo de Operación:</label>
-                    <select name="operaciones" id="operaciones">
-                         <option value="1">+ Suma</option>
-                         <option value="2">- Resta</option>
-                         <option value="3">* Multiplicación</option>
-                         <option value="4">/ División</option>
-                         <option value="5">^ Exponente</option>
-                    </select>
-               </p>
-               <p>
-                    <label for="numero_2">Número 2:</label>
-                    <input type="text" name="numero_2" id="numero_2">
-               </p>
-
-               <p><button onclick="calcular()">Calcular</button></p>
+          <div class="calculadora-contenedor">
+               <h2>Calculadora</h2>
+               <div class="calculadora">
+                    <p>
+                         <label for="numero_1">Número 1:</label><br>
+                         <input type="text" name="numero_1" id="numero_1">
+                    </p>
+                    <p>
+                         <label for="operacion">Tipo de Operación:</label><br>
+                         <select name="operaciones" id="operaciones">
+                              <option value="1">+ Suma</option>
+                              <option value="2">- Resta</option>
+                              <option value="3">* Multiplicación</option>
+                              <option value="4">/ División</option>
+                              <option value="5">^ Exponente</option>
+                         </select>
+                    </p>
+                    <p>
+                         <label for="numero_2">Número 2:</label><br>
+                         <input type="text" name="numero_2" id="numero_2">
+                    </p>
+               </div>
+               <div>
+                    <p><button onclick="calcular()">Calcular</button></p>
+               </div>
           </div>
           <div id="resultado">
                <p>Resultado:</p>
